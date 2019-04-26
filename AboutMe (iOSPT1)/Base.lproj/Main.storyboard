@@ -57,12 +57,23 @@
                                     </stackView>
                                 </subviews>
                             </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YvO-8g-c85">
+                                <rect key="frame" x="184" y="800" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="introduceSelfButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1eZ-Kn-jPN"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="tHW-t3-s8e" secondAttribute="bottom" constant="732" id="4B0-yp-ySN"/>
                             <constraint firstItem="tHW-t3-s8e" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="80J-jd-db1"/>
                             <constraint firstItem="tHW-t3-s8e" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="PE2-JB-bUV"/>
+                            <constraint firstItem="YvO-8g-c85" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="eBd-nc-weC"/>
+                            <constraint firstItem="YvO-8g-c85" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="nSk-wm-g3b"/>
+                            <constraint firstItem="YvO-8g-c85" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="nhJ-NA-QdQ"/>
+                            <constraint firstItem="YvO-8g-c85" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="pGX-nT-BlV"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="tHW-t3-s8e" secondAttribute="trailing" constant="16" id="zy8-B2-aXt"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
