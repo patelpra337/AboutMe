@@ -17,11 +17,14 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         self.nameLabel.isHidden = true
-        self.nameLabel.isHidden = true
+        self.hobbiesLabel.isHidden = true
 
     }
 
     @IBAction func introduceSelfButtonTapped(_ sender: UIButton) {
+        
+        self.nameLabel.isHidden = false
+        self.hobbiesLabel.isHidden = false
         
         self.nameLabel.text = "Pravin"
         self.hobbiesLabel.text = "Thinker, Movies, Coder"
